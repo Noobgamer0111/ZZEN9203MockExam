@@ -20,3 +20,6 @@ block_1 = "Service NSW"
 block_1_hash = generate_valid_block(1, block_1, "")  # Previous hash is empty for the first block
 # Output will be similar to:
 # '1+Service NSW+0f603b5f322a16568bf7b0acff51008466408cdccbfeff675118bbde8ca49b50+25'
+
+print("Block 1:", block_1_hash[0])
+print("Hash:", block_1_hash[1])
